@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}Add New Project{% endblock %}
+{% block body %}
+<form action="/add" method="post" class="mx-5">
+    <input type="text" name="projectName" id="projectName" class="form-control my-5 border border-primary" placeholder="Project Name">
+    <textarea name="projectDescription" id="projectDescription" cols="30" rows="10" class="form-control  my-5 border border-primary" placeholder="Project Description"></textarea>
+    <input type="text" name="projectParticipant" id="projectParticipant" class="form-control  my-5 border border-primary" placeholder="Participants">
+    <input type="submit" value="Add" class="btn btn-primary">
+</form>
+{% endblock %}
