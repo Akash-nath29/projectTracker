@@ -32,6 +32,10 @@ Get started with the Project Manager application locally by following these step
    python3 -m venv venv
    source venv/bin/activate
    ```
+   or, for cmd
+   ```bash
+   venv\Scripts\activate
+   ```
 
 3. Install the required packages:
    ```bash
@@ -50,7 +54,7 @@ Get started with the Project Manager application locally by following these step
    flask run
    ```
 
-Access the application through your web browser at `http://localhost:5000`.
+Access the application through your web browser at `http://127.0.0.1:80`.
 
 ## Usage 🚀
 
